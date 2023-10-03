@@ -25,6 +25,11 @@ myDog.eyeColor = "hazel";
 document.getElementById("test1.3").innerHTML =
   myDog.name + " has " + myDog.eyeColor + " eyes.";
 
+//Object delete properties
+delete myDog.breed;
+
+document.getElementById("test1.4").innerHTML =
+  myDog.name + " is a " + myDog.breed;
 // Object Method
 
 //Array
