@@ -1,6 +1,6 @@
 console.log("Random Question: Do you prefer coffee or tea?");
 
-//Object
+//Object literal
 const myDog = {
   name: "Kallum",
   age: 3,
@@ -8,7 +8,8 @@ const myDog = {
   temperment: "hyper",
 };
 
-document.getElementById("test1").innerHTML = myDog;
+document.getElementById("test1").innerHTML =
+  myDog.name + " is my " + myDog.age + " year old " + myDog.breed;
 
 // Object Method
 
