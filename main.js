@@ -5,7 +5,7 @@ const myDog = {
   name: "Kallum",
   age: 3,
   breed: "Border Collie",
-  temperment: "hyper",
+  temperament: "hyper",
 };
 
 document.getElementById("test1").innerHTML =
