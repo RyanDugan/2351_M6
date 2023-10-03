@@ -11,6 +11,14 @@ const myDog = {
 document.getElementById("test1").innerHTML =
   myDog.name + " is my " + myDog.age + " year old " + myDog.breed;
 
+//Object for...in loop
+let txt = "";
+for (let x in myDog) {
+  txt += myDog[x] + " ";
+}
+
+document.getElementById("test1.2").innerHTML = txt;
+
 // Object Method
 
 //Array
