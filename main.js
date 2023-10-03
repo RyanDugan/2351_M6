@@ -19,6 +19,12 @@ for (let x in myDog) {
 
 document.getElementById("test1.2").innerHTML = txt;
 
+//Object add properties
+myDog.eyeColor = "hazel";
+
+document.getElementById("test1.3").innerHTML =
+  myDog.name + " has " + myDog.eyeColor + " eyes.";
+
 // Object Method
 
 //Array
