@@ -49,6 +49,19 @@ const legendOfZelda = {
 
 document.getElementById("test2").innerHTML = legendOfZelda.fullStatement();
 
+//Object Constructors
+function Child(first, age, eye) {
+  this.firstName = first;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+const mySon = new Child("Levi", "6", "blue");
+const myDaughter = new Child("Riley", "2", "blue");
+
+document.getElementById("test2.2").innerHTML =
+  "My son is " + mySon.age + ". My daughter is " + myDaughter.age + ".";
+
 //Array
 
 //Array Method
