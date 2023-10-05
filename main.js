@@ -91,4 +91,17 @@ console.log(justiceLeague);
 
 document.getElementById("test3.2").innerHTML = justiceLeague.toString();
 
+// length of array sent to console log
+let size = justiceLeague.length;
+console.log(size);
+
+//loop in the array
+let text = "<ul>";
+for (let i = 0; i < size; i++) {
+  text += "<li>" + justiceLeague[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("test3.3").innerHTML = text;
+
 //Array Method
