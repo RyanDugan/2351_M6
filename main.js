@@ -63,5 +63,25 @@ document.getElementById("test2.2").innerHTML =
   "My son is " + mySon.age + ". My daughter is " + myDaughter.age + ".";
 
 //Array
+const justiceLeague = [
+  "Superman",
+  "Batman",
+  "Wonder Woman",
+  "The Flash",
+  "Green Lantern",
+  "Aquaman",
+  "Martian Manhunter",
+  "Green Arrow",
+  "Atom",
+  "Hawkman",
+  "Metamorpho",
+  "Black Canary",
+  "Phantom Stranger",
+  "Elongated Man",
+  "Red Tornado",
+  "Hawkgirl",
+  "Zatana",
+  "Firestorm",
+];
 
 //Array Method
