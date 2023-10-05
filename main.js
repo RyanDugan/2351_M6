@@ -84,4 +84,7 @@ const justiceLeague = [
   "Firestorm",
 ];
 
+document.getElementById("test3").innerHTML =
+  justiceLeague[1] + " is second in the array";
+
 //Array Method
