@@ -118,3 +118,7 @@ function byeJL() {
   justiceLeague.pop();
   document.getElementById("test4").innerHTML = justiceLeague;
 }
+
+//sort array
+justiceLeague.sort();
+document.getElementById("test5").innerHTML = justiceLeague;
