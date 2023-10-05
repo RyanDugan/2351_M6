@@ -91,7 +91,7 @@ console.log(justiceLeague);
 
 document.getElementById("test3.2").innerHTML = justiceLeague.toString();
 
-//add Push-Man to the array string
+//add Push-Man to the array with a push method
 function justiceFunction() {
   justiceLeague.push("Push-Man");
   document.getElementById("test3.2").innerHTML = justiceLeague;
@@ -109,5 +109,3 @@ for (let i = 0; i < size; i++) {
 text += "</ul>";
 
 document.getElementById("test3.3").innerHTML = text;
-
-//Array Method
