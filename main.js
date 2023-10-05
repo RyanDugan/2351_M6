@@ -87,4 +87,8 @@ const justiceLeague = [
 document.getElementById("test3").innerHTML =
   justiceLeague[1] + " is second in the array";
 
+console.log(justiceLeague);
+
+document.getElementById("test3.2").innerHTML = justiceLeague.toString();
+
 //Array Method
