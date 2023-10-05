@@ -110,3 +110,11 @@ for (let i = 0; i < size; i++) {
 text += "</ul>";
 
 document.getElementById("test3.3").innerHTML = text;
+
+// pop method
+document.getElementById("test4").innerHTML = justiceLeague;
+
+function byeJL() {
+  justiceLeague.pop();
+  document.getElementById("test4").innerHTML = justiceLeague;
+}
