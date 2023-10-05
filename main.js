@@ -89,6 +89,7 @@ document.getElementById("test3").innerHTML =
 
 console.log(justiceLeague);
 
+//string array method
 document.getElementById("test3.2").innerHTML = justiceLeague.toString();
 
 //add Push-Man to the array with a push method
