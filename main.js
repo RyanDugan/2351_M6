@@ -91,6 +91,12 @@ console.log(justiceLeague);
 
 document.getElementById("test3.2").innerHTML = justiceLeague.toString();
 
+//add Push-Man to the array string
+function justiceFunction() {
+  justiceLeague.push("Push-Man");
+  document.getElementById("test3.2").innerHTML = justiceLeague;
+}
+
 // length of array sent to console log
 let size = justiceLeague.length;
 console.log(size);
