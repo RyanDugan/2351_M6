@@ -119,6 +119,6 @@ function byeJL() {
   document.getElementById("test4").innerHTML = justiceLeague;
 }
 
-//sort array
+//sort array alphabetically
 justiceLeague.sort();
 document.getElementById("test5").innerHTML = justiceLeague;
